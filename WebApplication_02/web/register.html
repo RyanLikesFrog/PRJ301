@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <table>
+
+
+            <tr>
+                <td colspan="2">LOGIN INFORMATION</td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="mail" id="mail"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="confirm_password" id="confirm_password"></td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td colspan="2">USER INFORMATION</td>
+            </tr>
+
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="full_name" id="full_name"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male" id="gender_male" checked="checked"> Male<br/>
+                    <input type="radio" name="gender" value="female" id="gender_female" checked="checked"> Female<br/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td>
+                    <select name="date_of_birth" id="date_of_birth">
+                        <option value=""></option>
+                        <option value="1" selected="selected">01</option>
+                    </select>
+                    <select name="month_of_birth" id="month_of_birth">
+                        <option value=""></option>
+                        <option value="1"  selected="selected">01</option>
+                    </select>
+                    <select name="year_of_birth" id="year_of_birth">
+                        <option value=""></option>
+                        <option value="1"  selected="selected">01</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="phone_number" id="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Avatar:</td>
+                <td><input type="file" name="avatar" id="avatar"></td>
+            </tr>
+
+            
+            
+            
+            <tr>
+                <td colspan="2">ADDRESS</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country" id="country">
+                        <option value=""></option>
+                        <option value="vietnam" selected="selected">Viet Nam</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value=""></option>
+                        <option value="hcm" selected="selected">TP. HCM</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>District</td>
+                <td>
+                    <select name="disctrict" id="district">
+                        <option value=""></option>
+                        <option value="thuduc" selected="selected">Thu Duc</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Home Address</td>
+                <td>
+                    <textarea name="home_address">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Register"/>
+                    <input type="button" value="Clear Form"/>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
